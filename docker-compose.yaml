@@ -1,0 +1,9 @@
+version: '2.3'
+
+services:
+  corona_vk_bot:
+    build: .
+    command: python app.py
+    environment:
+      - TOKEN=?
+      - GROUP_ID=?
